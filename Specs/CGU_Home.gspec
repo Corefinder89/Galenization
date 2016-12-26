@@ -10,6 +10,11 @@
     accordian-travel-insurance     xpath  //div[@class='xs-accordian']/div[4]
     accordian-residential-strata-caravan-insurance   xpath   //div[@class='xs-accordian']/div[5]
     accordian-life-insurance   xpath   //div[@class='xs-accordian']/div[6]
+    find-an-insurance-adviser  css     form#cgu-advisers-module-form
+    learn-about-insurance    css      .learn-about-insurance
+    which-insurance-is-right-for-you    css    #which-insurance-is-right-for-you-carousel
+    dark-banner    css      .dark-banner
+    footer    css      footer
 
 = Header section =
     @on mobile
@@ -52,3 +57,33 @@
     accordian-life-insurance:
             height 50px
             width 362px
+
+= Speak to an adviser =
+    @on mobile
+    find-an-insurance-adviser:
+            height 210px
+            width 342px
+
+= Learn About Insurance =
+    @on mobile
+    learn-about-insurance:
+        height 282px
+        width 327px
+
+= Which insurance is right for you =
+    @on mobile
+    which-insurance-is-right-for-you:
+        height 555px
+        width 342px
+
+= Dark Banner Image =
+    @on mobile
+    dark-banner:
+        height 320px
+        width 362px
+
+= Footer =
+    @on mobile
+    footer:
+        height 261px
+        width 362px
