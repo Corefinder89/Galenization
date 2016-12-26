@@ -1,0 +1,24 @@
+@objects
+	header              css      div.ss-header-container div.ss-header
+    header-logo         css      div.ss-header-left div:nth-child(2) a img.cgu-logo 
+    carousel            id       hero-carousel-mob
+    hamburger           css      div.ss-header-left div.ss-header-menu-button
+    feedback			id		 #nebula_div_btn
+
+= Header section =
+    @on mobile
+    header:
+        height 50px
+        width 362px
+    header-logo:
+        height 33px
+        width 41px
+    hamburger:
+        height 50px
+        width 35px
+        
+= Main section =
+    @on mobile    
+    carousel:
+        height 325px
+        width 362px
