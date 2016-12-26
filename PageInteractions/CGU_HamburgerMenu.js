@@ -1,0 +1,1 @@
+driver.findElement(By.cssSelector("i.icon-menu-hamburger")).click();
