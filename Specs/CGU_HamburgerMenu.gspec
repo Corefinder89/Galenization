@@ -1,0 +1,8 @@
+@objects
+	hamburger-menu     id      ss-menu
+
+= Hamburger Menu =
+	@on mobile
+	hamburger-menu:
+		height 596px  
+		width 250px

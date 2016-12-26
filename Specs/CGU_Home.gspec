@@ -1,0 +1,54 @@
+@objects
+    header              css      div.ss-header-container div.ss-header
+    header-logo         css      div.ss-header-left div:nth-child(2) a img.cgu-logo
+    carousel            id       hero-carousel-mob
+    hamburger           css      div.ss-header-left div.ss-header-menu-button
+    business-landing-header    css        .business-landing-products h3
+    accordian-car-insurance    xpath      //div[@class='xs-accordian']/div[1]
+    accordian-home-insurance   xpath      //div[@class='xs-accordian']/div[2]
+    accordian-boat-landlord-insurance   xpath      //div[@class='xs-accordian']/div[3]
+    accordian-travel-insurance     xpath  //div[@class='xs-accordian']/div[4]
+    accordian-residential-strata-caravan-insurance   xpath   //div[@class='xs-accordian']/div[5]
+    accordian-life-insurance   xpath   //div[@class='xs-accordian']/div[6]
+
+= Header section =
+    @on mobile
+    header:
+        height 50px
+        width 362px
+    header-logo:
+        height 33px
+        width 41px
+    hamburger:
+        height 50px
+        width 35px
+        
+= Main section =
+    @on mobile    
+    carousel:
+        height 325px
+        width 362px
+
+= Business-landing-products =
+    @on mobile
+    business-landing-header:
+            height 60px
+            width 342px
+    accordian-car-insurance:
+            height 50px
+            width 362px
+    accordian-home-insurance:
+            height 50px
+            width 362px
+    accordian-boat-landlord-insurance:
+            height 100px
+            width 362px
+    accordian-travel-insurance:
+            height 50px
+            width 362px
+    accordian-residential-strata-caravan-insurance:
+            height 100px
+            width 362px
+    accordian-life-insurance:
+            height 50px
+            width 362px
