@@ -1,0 +1,100 @@
+@objects
+	header              css      div.ss-header-container div.ss-header
+    header-logo         css      div.ss-header-left div:nth-child(2) a img.cgu-logo 
+    carousel            id       hero-carousel-mob
+    hamburger           css      div.ss-header-left div.ss-header-menu-button
+    feedback			id		 nebula_div_btn
+    business-landing-header    css        .business-landing-products h3
+    accordian-business-pack    xpath      //div[@class='xs-accordian']/div[1]
+    accordian-trades-insurance xpath      //div[@class='xs-accordian']/div[2]
+    accordian-farm-pack    xpath      //div[@class='xs-accordian']/div[3]
+    accordian-professional-indemnity-cover    xpath      //div[@class='xs-accordian']/div[4]
+    accordian-property-owner    xpath      //div[@class='xs-accordian']/div[5]
+    accordian-public-liability-workerscomp    xpath      //div[@class='xs-accordian']/div[6]
+    accordian-IT-professionals-cover    xpath      //div[@class='xs-accordian']/div[7]
+    speak-to-an-adviser    css      form#cgu-advisers-module-form
+    learn-about-insurance    css      .learn-about-insurance
+    which-insurance-is-right-for-you    css    #which-insurance-is-right-for-you-carousel
+    dark-banner    css      .dark-banner
+    footer    css      footer
+
+= Header-section =
+    @on mobile
+    header:
+        height 50px
+        width 362px
+    header-logo:
+        height 33px
+        width 41px
+    hamburger:
+        height 50px
+        width 35px
+        
+= Main-section =
+    @on mobile    
+    carousel:
+        height 325px
+        width 362px
+
+= Feedback Section =
+	@on mobile
+	feedback:
+		height 140px
+		width 32px
+
+= Business-landing-products =
+    @on mobile
+    business-landing-header:
+        height 60px
+        width 342px
+    accordian-business-pack:
+    	height 50px
+    	width 362px
+    accordian-trades-insurance:
+    	height 50px   
+    	width 362px
+    accordian-farm-pack:
+    	height 50px
+    	width 362px
+    accordian-professional-indemnity-cover:
+    	height 100px
+    	width 362px
+    accordian-property-owner:
+    	height 50px
+    	width 362px
+    accordian-public-liability-workerscomp:
+    	height 100px 
+    	width 362px
+    accordian-IT-professionals-cover:
+    	height 50px
+    	width 362px
+
+= Speak-to-an-adviser =
+	@on mobile
+	speak-to-an-adviser:
+		height 210px
+		width 342px
+
+= Learn-about-insurance =
+	@on mobile
+	learn-about-insurance:
+		height 302px
+		width 327px
+
+= Which-insurance-is-right-for-you =
+	@on mobile
+	which-insurance-is-right-for-you:
+		height 555px
+		width 342px
+
+= Dark-Banner =
+	@on mobile
+	dark-banner:
+		height 320px
+		width 362px
+
+= Footer =
+	@on mobile
+	footer:
+		height 261px
+		width 362px
