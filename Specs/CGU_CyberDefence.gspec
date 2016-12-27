@@ -1,0 +1,16 @@
+@objects
+    header              css      div.ss-header-container div.ss-header
+    header-logo         css      div.ss-header-left div:nth-child(1) a img.cgu-logo
+    site-nav    xpath      (//div[@class='col-xs-12'])[1]
+
+= Header-section =
+    @on mobile
+    header:
+        height 70px
+        width 362px
+    header-logo:
+        height 33px
+        width 41px
+    site-nav:
+    	height 70px
+    	width 362px    

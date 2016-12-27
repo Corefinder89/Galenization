@@ -1,22 +1,33 @@
 @@ set domain www.cgu.com.au/insurance
 
+@@ disabled
 @@ groups mobile, personal_page
 Checking the responsiveness for personal section on Iphone 6
 	http://${domain}/personal    375x667	
 		check ./Specs/CGU_Home.gspec
 
+@@ disabled
+@@ groups mobile, personal_page
 Checking the responsiveness for menu in the personal section of Iphone 6
 	http://${domain}/personal    375x667
 	    run ./PageInteractions/CGU_HamburgerMenu.js
 	    check ./Specs/CGU_HamburgerMenu.gspec
 
+@@ disabled
 @@ groups mobile, business_page
 Checking the responsiveness for business section on Iphone 6
 	http://${domain}/business    375x667
 		wait 1m until exist "css: div#nebula_div_btn"
 		check ./Specs/CGU_Business.gspec
 
+@@ disabled
+@@ groups mobile, business_page
 Checking the responsiveness for menu in the business section on Iphone 6
 	http://${domain}/business    375x667
 		run ./PageInteractions/CGU_HamburgerMenu.js
 		check ./Specs/CGU_HamburgerMenu.gspec
+
+@@ groups mobile, cyber_page
+Checking the responsiveness for cyber section on Iphone 6
+	http://${domain}/cyber    375x667
+		check ./Specs/CGU_CyberDefence.gspec
