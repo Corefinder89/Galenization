@@ -2,8 +2,13 @@
     header              css      div.ss-header-container div.ss-header
     header-logo         css      div.ss-header-left div:nth-child(1) a img.cgu-logo
     site-nav    xpath      (//div[@class='col-xs-12'])[1]
+    site-nav-button    xpath      //div[@class='cta-wrapper text-right']/a
+    CGU-Cyber-Hero-image    xpath      //section[@class='cyber hero']/div[@class='bg-image-xs']
+    CGU-Cyber-Overview    xpath      //section[@class='cyber cyber-overview']
+    CGU-Carousel    xpath       //section[@class='cyber cyber-overview has-bg features']/div[2]
+    CGU-Cyber-Tools    xpath      //section[@class='cyber cyber-overview cyber-tools']     
 
-= Header-section =
+= Cyber-Section =
     @on mobile
     header:
         height 70px
@@ -13,4 +18,20 @@
         width 41px
     site-nav:
     	height 70px
-    	width 362px    
+    	width 362px
+    site-nav-button:
+    	inside site-nav 10px top
+    	inside site-nav 215px left
+    	inside site-nav 11px right
+    CGU-Cyber-Hero-image:
+    	height 354px
+    	width 362px
+    CGU-Cyber-Overview:
+    	height 826px
+    	width 362px
+    CGU-Carousel:
+    	height 398px
+    	width 362px
+    CGU-Cyber-Tools:
+    	height 583px
+    	width 342px
