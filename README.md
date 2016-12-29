@@ -11,7 +11,8 @@ In case the page is not directly accessible, Galen allows you to perform some op
 
 Galen specs is the language with which the specifications of responsiveness can be defined as per different<br>devices. The following code snippet will give an idea about how easy it is to implement the page specifications using Galen.
 
-`= Main section =
+```
+= Main section =
     @on *
         header:
             height 100px 
@@ -32,4 +33,5 @@ Galen specs is the language with which the specifications of responsiveness can 
          
     @on desktop 
         search-button:
-            width 150px` 
+            width 150px 
+```
