@@ -39,7 +39,9 @@ Galen specs is the language with which the specifications of responsiveness can 
 
 # Install Galen
 <h3>Requirements</h3>
-<br>
 For Galen a Java version greater then 1.8 is required
 <br>
 <h3>NPM-based Installation</h3>
+For npm based installtion just type in the command<br>
+`sudo npm install -g galenframework-cli`
+<br>
