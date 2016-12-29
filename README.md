@@ -3,9 +3,9 @@ Galen is a framework that has been developed for automation testing of responsiv
 
 #Mode of operation
 Galen operates in the following manner.<br>
-1. Galen opens a page in a browser.
-2. Resizes the browser to a specific size.
-3. Tests the layout with Galen specs.
+1. Galen opens a page in a browser.<br>
+2. Resizes the browser to a specific size.<br>
+3. Tests the layout with Galen specs.<br>
 
 In case the page is not directly accessible, Galen allows you to perform some operations on the website<br> first. As it is based on Selenium all operations related to clicking, typing, injecting client-side<br> javascript can be done very easily.
 
