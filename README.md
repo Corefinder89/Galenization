@@ -56,6 +56,7 @@ The above command should print the installed version of `Galen` within your syst
 # Configuring Galen
 To configure galen create a project directory and inside that project directory execute the following command.<br>
 `galen config`<br>
+
 This would basically create a galen.config file in your project directory which would basically contain the configurational parameters for `Galen`. You need to configure the `ChromeDriver` for `Chrome` and the `GeckoDriver` for `Firefox`. To execute your tests in `headless` mode you can also execute it using `PhantomJs`.<br>
 To configure the drivers use the following syntax.
 ```
