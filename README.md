@@ -35,7 +35,6 @@ Galen specs is the language with which the specifications of responsiveness can 
         search-button:
             width 150px 
 ```
-<br>
 
 # Install Galen
 <h2>Requirements</h2>
@@ -55,5 +54,5 @@ To check whether Galen is sucessfully installed execute the following command.<b
 The above command should print the installed version of `Galen` within your system.
 
 # Configuring Galen
-To configure galen create a project directory and inside that project directory execute the following command.
+To configure galen create a project directory and inside that project directory execute the following command.<br>
 `galen config`
