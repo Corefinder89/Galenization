@@ -6,7 +6,18 @@
     CGU-Cyber-Hero-image    xpath      //section[@class='cyber hero']/div[@class='bg-image-xs']
     CGU-Cyber-Overview    xpath      //section[@class='cyber cyber-overview']
     CGU-Carousel    xpath       //section[@class='cyber cyber-overview has-bg features']/div[2]
-    CGU-Cyber-Tools    xpath      //section[@class='cyber cyber-overview cyber-tools']     
+    CGU-Cyber-Tools    xpath      //section[@class='cyber cyber-overview cyber-tools']
+    CGU-Cyber-Incident-Response    xpath      //section[@class='cyber cyber-overview incident-response has-bg']/div[2]
+    CGU-Cyber-Claims-Header    xpath      //section[@id='claims-examples']/div/div/div/h2
+    CGU-Cyber-Employee-Error    xpath      (//div[@class='panel-1']/div/div[1])[1]
+    CGU-Cyber-PrivacyFinesandInvestigations    xpath       (//div[@class='panel-1']/div/div[1])[2]
+    CGU-Cyber-ComputerVirus-TransmissionandHacking    xpath      (//div[@class='panel-1']/div/div[2])[1]
+    CGU-Cyber-Multimedia-Liability    xpath           (//div[@class='panel-1']/div/div[2])[2]
+    CGU-Cyber-Cover-Extension    xpath      //section[@class='cyber cyber-overview cover-extension has-bg']
+    CGU-Cyber-Resources-Videos    xpath      //section[@class='cyber resources videos']
+    CGU-Cyber-Get-A-Quote    xpath      //section[@class='cyber cyber-overview get-quote has-bg']
+    CGU-Cyber-Get-A-Quote-Image    xpath      //div[@class='get-quote-image']
+    footer    css      footer
 
 = Cyber-Section =
     @on mobile
@@ -35,3 +46,42 @@
     CGU-Cyber-Tools:
     	height 583px
     	width 342px
+    CGU-Cyber-Incident-Response:
+    	height 771px
+    	width 362px
+    CGU-Cyber-Claims-Header:
+    	height 38px
+    	width 322px
+    CGU-Cyber-Employee-Error:
+    	height 240px
+    	width 342px
+    CGU-Cyber-PrivacyFinesandInvestigations:
+    	height 240px
+    	width 342px
+    CGU-Cyber-ComputerVirus-TransmissionandHacking:
+    	height 240px
+    	width 342px
+    CGU-Cyber-Multimedia-Liability:
+    	height 240px
+    	width 342px
+    CGU-Cyber-Cover-Extension:
+    	height 1156px
+    	width 362px
+    CGU-Cyber-Resources-Videos:
+    	height 921px
+    	width 362px
+    CGU-Cyber-Get-A-Quote:
+    	height 864px
+    	width 362px
+    CGU-Cyber-Get-A-Quote-Image:
+    	inside CGU-Cyber-Get-A-Quote-Image 0px top
+    	inside CGU-Cyber-Get-A-Quote-Image 0px left
+    	inside CGU-Cyber-Get-A-Quote-Image 0px right
+    	height 217px
+    	width 200px
+
+= Footer =
+    @on mobile
+    footer:
+        height 261px
+        width 362px
