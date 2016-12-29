@@ -1,7 +1,7 @@
 # Galen
 Galen is a framework that has been developed for automation testing of responsive design for web applications.<br>Now a days it has become a fully functional testing framework with rich reporting and test management system.<br>It supports both Javascript and Java.
 
-#Mode of operation
+# Mode of operation
 Galen operates in the following manner.<br>
 1. Galen opens a page in a browser.<br>
 2. Resizes the browser to a specific size.<br>
@@ -35,3 +35,11 @@ Galen specs is the language with which the specifications of responsiveness can 
         search-button:
             width 150px 
 ```
+<br>
+
+# Install Galen
+<h3>Requirements</h3>
+<br>
+For Galen a Java version greater then 1.8 is required
+<br>
+<h3>NPM-based Installation</h3>
