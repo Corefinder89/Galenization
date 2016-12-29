@@ -52,3 +52,8 @@ Download the archive from [Download Page](http://galenframework.com/download/) a
 
 To check whether Galen is sucessfully installed execute the following command.<br>
 `galen -v`
+The above command should print the installed version of `Galen` within your system.
+
+# Configuring Galen
+To configure galen create a project directory and inside that project directory execute the following command.
+`galen config`
