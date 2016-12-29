@@ -47,5 +47,5 @@ For npm based installtion just type in the command<br>
 <br>
 <h2>Manual Installation</h2>
 <h3>Install on OS X and Linux</h3>
-Download the archive from [Download Page](http://galenframework.com/download/) and extract it in any<br> directory. Go to the extracted directory of the galen and execute the following command.<br>
+Download the archive from [Download Page](http://galenframework.com/download/) and extract it in any directory. Go to the extracted directory of the galen and execute the following command.<br>
 `sudo ./install.sh`
