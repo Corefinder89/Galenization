@@ -1,12 +1,12 @@
 @@ set domain www.cgu.com.au/insurance
 
-@@ groups mobile, personal_page
+@@ groups mobile, Personal_Section
 Checking the responsiveness for personal section on Iphone 6
-	http://${domain}/personal    375x667	
+	Personal Page | http://${domain}/personal    375x667	
 		check ./Specs/CGU_Home.gspec
 
-@@ groups mobile, personal_page
-Checking the responsiveness for menu in the personal section of Iphone 6
-	http://${domain}/personal    375x667
+@@ groups mobile, Personal_Section
+Checking the responsiveness for menu in the personal section on Iphone 6
+	Personal page breadcrumb | http://${domain}/personal    375x667
 	    run ./PageInteractions/CGU_HamburgerMenu.js
 	    check ./Specs/CGU_HamburgerMenu.gspec

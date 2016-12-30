@@ -1,6 +1,6 @@
 @@ set domain www.cgu.com.au/insurance
 
-@@ groups mobile, cyber_page
+@@ groups mobile, Cyber_Crime
 Checking the responsiveness for cyber section on Iphone 6
-	http://${domain}/cyber    375x667
+	Cyber Crime | http://${domain}/cyber    375x667
 		check ./Specs/CGU_CyberDefence.gspec
