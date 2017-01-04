@@ -1,0 +1,21 @@
+@objects
+	hamburger-menu     id      ss-menu
+    hamburger-close    css     .close-menu-button
+
+= Hamburger Menu =
+    @on mobile
+        hamburger-menu:
+            height 596px  
+            width 250px
+    @on desktop
+        hamburger-menu:
+            absent
+
+= Hmaburger Menu Close =
+    @on mobile
+        hamburger-close:
+            height 50px
+            width 50px
+    @on desktop
+        hamburger-close:
+            absent

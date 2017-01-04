@@ -1,0 +1,41 @@
+@objects
+	header-mobile       css      div.ss-header-container div.ss-header
+	header-desktop      css      .global-nav
+    header-logo         css      div.ss-header-left div:nth-child(2) a img.cgu-logo 
+    hamburger           css      div.ss-header-left div.ss-header-menu-button
+    carousel-mobile     id       hero-carousel-mob
+    carousel-desktop    id       hero-carousel
+
+= Header-section =
+    @on mobile
+    	header-mobile:
+        	height 50px
+        	width 362px
+    	header-logo:
+        	height 33px
+        	width 41px
+    	hamburger:
+        	inside header-mobile 0px top
+        	inside header-mobile 0px left
+        	inside header-mobile 327px right
+        	height 50px
+
+    @on desktop
+    	header-desktop:
+        	height 40px
+        	width 1011px
+    	header-logo:
+        	absent
+    	hamburger:
+    		absent
+
+= Main-section =
+    @on mobile
+    	carousel-mobile:
+    		height 325px
+    		width 362px
+
+    @on desktop
+    	carousel-desktop:
+    		height 565px
+    		width 1011px

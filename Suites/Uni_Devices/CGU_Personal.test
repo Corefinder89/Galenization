@@ -3,10 +3,10 @@
 @@ groups mobile, Personal_Section
 Checking the responsiveness for personal section on Iphone 6
 	Personal Page | http://${domain}/personal    375x667	
-		check ./Specs/CGU_Home.gspec
+		check ././Specs/Uni_Specs/CGU_Home.gspec
 
 @@ groups mobile, Personal_Section
 Checking the responsiveness for menu in the personal section on Iphone 6
 	Personal page breadcrumb | http://${domain}/personal    375x667
-	    run ./PageInteractions/CGU_HamburgerMenu.js
-	    check ./Specs/CGU_HamburgerMenu.gspec
+	    run ././PageInteractions/CGU_HamburgerMenu.js
+	    check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec
