@@ -1,0 +1,59 @@
+@objects
+    header              css      div.ss-header-container div.ss-header
+    header-logo         css      div.ss-header-left div:nth-child(2) a img.cgu-logo
+    hamburger           css      div.ss-header-left div.ss-header-menu-button
+    FAA_Form    css      div.find-an-adviser-form
+    Insurance_sections    id      edit-adviser-type
+    Personal_products_label    css      ul.personal-products li:nth-child(1)
+    Location    id      location_col
+    Adviser_Location    id      adviser_location
+    Button    id      btnLoad
+    Loading_Panel    id      faa_loadingPanel
+    footer    css      footer  
+
+= FAA-Section =
+    @on mobile
+    header:
+        height 50px
+        width 362px
+    header-logo:
+        height 33px
+        width 41px
+    hamburger:
+        inside header 0px top
+        inside header 0px left
+        inside header 327px right
+        height 50px
+        width 35px
+    Insurance_sections:
+        inside FAA_Form 57px top
+        inside FAA_Form 0px left
+        inside FAA_Form 0px right
+        height 50px
+        width 342px
+    FAA_Form:
+    	height 717px
+    	width 342px
+    Personal_products_label:
+        inside FAA_Form 164px top
+        inside FAA_Form 0px left
+        inside FAA_Form 0px right
+        height 50px
+        width 342px
+    Location:
+        height 107px
+        width 362px
+    Adviser_Location:
+        inside Location 57px top
+        inside Location 10px left
+        inside Location 65px right
+    Button:
+        inside Location 57px top
+        inside Location 302px left
+        inside Location 10px right
+
+= Footer =
+    @on mobile
+    footer:
+        height 261px
+        width 362px

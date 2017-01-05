@@ -5,14 +5,23 @@
 @@ table devices
    | deviceName | tags    | size     |
    | Mobile     | mobile  | 375x667  |
-   | Desktop	| desktop | 1024x768 |
+   | Desktop	  | desktop | 1024x768 |
 
+@@ parameterized using devices
+@@ groups FindAnAdviser
+Checking the responsiveness for FindAnAdviser section on ${deviceName}
+  http://${domain}/Personal/Find-an-insurance-adviser ${size}
+    run ././PageInteractions/CGU_FAA.js  '{pin: "3000"}'
+    check ././Specs/Cross_Specs/CGU_FAA.gspec
+
+@@ disabled
 @@ parameterized using devices
 @@ groups Personal
 Checking the responsiveness for personal section on ${deviceName}
   http://www.cgu.com.au/insurance/personal ${size}
   	check ././Specs/Cross_Specs/CGU_Personal.gspec --include "${tags}"	
 
+@@ disabled
 @@ parameterized using devices
 @@ groups Business
 Checking the responsiveness for business section on ${deviceName}
@@ -20,4 +29,9 @@ Checking the responsiveness for business section on ${deviceName}
     wait 10s until exist "css: div#nebula_div_btn"
 	check ././Specs/Cross_Specs/CGU_Business.gspec --include "${tags}"
 
-
+@@ disabled
+@@ parameterized using devices
+@@ groups CyberDefence
+Checking the responsiveness for CyberDefence section on ${deviceName}
+  http://${domain}/cyber ${size}
+    check ././Specs/Cross_Specs/CGU_CyberDefence.gspec --include "${tags}"
