@@ -3,7 +3,7 @@
 @@ groups mobile, Personal_Section
 Checking the responsiveness for personal section on Iphone 6
 	Personal Page | http://${domain}/personal    375x667	
-		check ././Specs/Uni_Specs/CGU_Home.gspec
+		check ././Specs/Uni_Specs/CGU_Personal.gspec
 
 @@ groups mobile, Personal_Section
 Checking the responsiveness for menu in the personal section on Iphone 6

@@ -17,7 +17,7 @@
     footer    css      footer
 
 = Header section =
-    @on Iphone6
+    @on mobile
     header:
         height 50px
         width 362px
@@ -30,7 +30,6 @@
         inside header 327px right
         height 50px
         width 35px
-    @on Iphone6S
         
 = Main section =
     @on mobile    

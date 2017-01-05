@@ -5,6 +5,22 @@
     hamburger           css      div.ss-header-left div.ss-header-menu-button
     carousel-mobile     id       hero-carousel-mob
     carousel-desktop    id       hero-carousel
+    feedback            id       nebula_div_btn
+    business-landing-header    css        .business-landing-products h3
+    accordian-business-pack    xpath      //div[@class='xs-accordian']/div[1]
+    accordian-trades-insurance xpath      //div[@class='xs-accordian']/div[2]
+    accordian-farm-pack    xpath      //div[@class='xs-accordian']/div[3]
+    accordian-professional-indemnity-cover    xpath      //div[@class='xs-accordian']/div[4]
+    accordian-property-owner    xpath      //div[@class='xs-accordian']/div[5]
+    accordian-public-liability-workerscomp    xpath      //div[@class='xs-accordian']/div[6]
+    accordian-IT-professionals-cover    xpath      //div[@class='xs-accordian']/div[7]
+    speak-to-an-adviser    css      form#cgu-advisers-module-form
+    make-a-claim    css      .make-a-claim
+    learn-about-insurance    css      .learn-about-insurance
+    which-insurance-is-right-for-you    css    #which-insurance-is-right-for-you-carousel
+    well-help-you-see-it-through    css    .well-help-you-see-it-through
+    dark-banner    css      .dark-banner
+    footer    css      footer
 
 = Header-section =
     @on mobile
@@ -39,3 +55,142 @@
     	carousel-desktop:
     		height 565px
     		width 1011px
+
+= Feedback-Section =
+    @on mobile
+        feedback:
+            height 140px
+            width 32px
+
+    @on desktop
+        feedback:
+            height 140px
+            width 32px
+
+= Business-landing-products =
+    @on mobile
+        business-landing-header:
+            height 60px
+            width 342px
+        accordian-business-pack:
+            height 50px
+            width 362px
+        accordian-trades-insurance:
+            height 50px   
+            width 362px
+        accordian-farm-pack:
+            height 50px
+            width 362px
+        accordian-professional-indemnity-cover:
+            height 100px
+            width 362px
+        accordian-property-owner:
+            height 50px
+            width 362px
+        accordian-public-liability-workerscomp:
+            height 100px 
+            width 362px
+        accordian-IT-professionals-cover:
+            height 50px
+            width 362px
+
+    @on desktop
+        business-landing-header:
+            height 34px
+            width 940px
+        accordian-business-pack:
+            height 380px 
+            width 480px
+        accordian-trades-insurance:
+            height 380px    
+            width 240px 
+        accordian-farm-pack:
+            height 380px 
+            width 240px 
+        accordian-professional-indemnity-cover:
+            height 380px 
+            width 240px 
+        accordian-property-owner:
+            height 380px 
+            width 240px 
+        accordian-public-liability-workerscomp:
+            height 380px  
+            width 240px 
+        accordian-IT-professionals-cover:
+            height 380px 
+            width 240px
+
+= Speak-to-an-adviser =
+    @on mobile
+        speak-to-an-adviser:
+            height 210px
+            width 342px
+
+    @on desktop
+        speak-to-an-adviser:
+            height 300px
+            width 620px
+
+= Make a claim =
+    @on mobile
+        make-a-claim:
+            absent
+
+    @on desktop
+        make-a-claim:
+            height 300px
+            width 300px
+
+= Learn-about-insurance =
+    @on mobile
+        learn-about-insurance:
+            height 302px
+            width 327px
+
+    @on desktop
+        learn-about-insurance:
+            height 300px
+            width 310px
+
+= Which-insurance-is-right-for-you =
+    @on mobile
+        which-insurance-is-right-for-you:
+            height 555px
+            width 342px
+
+    @on desktop
+        which-insurance-is-right-for-you:
+            height 300px
+            width 310px
+
+= Well-help-you-see-it-through =
+    @on mobile
+        well-help-you-see-it-through: 
+            absent
+
+    @on desktop
+        well-help-you-see-it-through: 
+            height 300px
+            width 300px
+
+= Dark-Banner =
+    @on mobile
+        dark-banner:
+            height 320px
+            width 362px
+
+    @on desktop
+        dark-banner:
+            height 300px
+            width 620px
+
+= Footer =
+    @on mobile
+        footer:
+            height 261px
+            width 362px
+
+    @on desktop
+        footer:
+            height 363px
+            width 1011px

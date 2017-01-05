@@ -8,7 +8,16 @@
    | Desktop	| desktop | 1024x768 |
 
 @@ parameterized using devices
+@@ groups Personal
+Checking the responsiveness for personal section on ${deviceName}
+  http://www.cgu.com.au/insurance/personal ${size}
+  	check ././Specs/Cross_Specs/CGU_Personal.gspec --include "${tags}"	
+
+@@ parameterized using devices
+@@ groups Business
 Checking the responsiveness for business section on ${deviceName}
   http://www.cgu.com.au/insurance/business ${size}
     wait 10s until exist "css: div#nebula_div_btn"
 	check ././Specs/Cross_Specs/CGU_Business.gspec --include "${tags}"
+
+
