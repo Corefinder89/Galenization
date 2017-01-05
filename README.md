@@ -70,3 +70,12 @@ To execute a test suite in galen execute the following command.<br>
 `galen test <TestSuite_name> --htmlreport <ReportDirectory_name>`<br>
 To execute anf check a spec file use the following command.<br>
 `galen check <File_name> --url <url> --size <dimension> --htmlreport <ReportDirectory_name>`
+
+# Project Structure
+This would be the possible project direcotry structure.<br>
+1. `Drivers` directory consists of the browser kits required to execute a browser. This directory includes `GeckoDriver`, `ChromeDriver` and `PhantomjsDriver`.<br>
+2. `PageInteractions` directory contains all the javascript related logic related to page interactions.<br>
+3. `Reports` directory consists of all the reports.<br>
+4. `Specs` directory consists of the Galen specifications.<br>
+5. `Test_Suites` directory consists of the test suites required to execute all the tests.<br>
+6. `galen.config` consists of all the configuration related parameters required to execute Galen.<br> 

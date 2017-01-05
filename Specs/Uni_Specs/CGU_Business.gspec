@@ -31,10 +31,9 @@
         inside header 0px left
         inside header 327px right
         height 50px
-        width 35px
         
 = Main-section =
-    @on mobile    
+    @on Iphone    
     carousel:
         height 325px
         width 362px

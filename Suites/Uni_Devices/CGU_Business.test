@@ -3,11 +3,11 @@
 @@ groups mobile, Business_Section
 Checking the responsiveness for business section on Iphone 6
 	Business page | http://${domain}/business    375x667
-		wait 1m until exist "css: div#nebula_div_btn"
-		check ./Specs/CGU_Business.gspec
+		wait 10s until exist "css: div#nebula_div_btn"
+		check ././Specs/Uni_Specs/CGU_Business.gspec
 
 @@ groups mobile, Business_Section
 Checking the responsiveness for menu in the business section on Iphone 6
 	Business page breadcrumb | http://${domain}/business    375x667
-		run ./PageInteractions/CGU_HamburgerMenu.js
-		check ./Specs/CGU_HamburgerMenu.gspec
+		run ././PageInteractions/CGU_HamburgerMenu.js
+		check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec

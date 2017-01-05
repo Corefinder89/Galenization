@@ -3,4 +3,4 @@
 @@ groups mobile, Cyber_Crime
 Checking the responsiveness for cyber section on Iphone 6
 	Cyber Crime | http://${domain}/cyber    375x667
-		check ./Specs/CGU_CyberDefence.gspec
+		check ././Specs/Uni_Specs/CGU_CyberDefence.gspec

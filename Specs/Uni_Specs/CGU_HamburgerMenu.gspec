@@ -3,13 +3,13 @@
     hamburger-close    css     .close-menu-button
 
 = Hamburger Menu =
-    @on mobile
+    @on Iphone6
     hamburger-menu:
         height 596px  
         width 250px
 
 = Hmaburger Menu Close =
-    @on mobile
+    @on Iphone6
     hamburger-close:
         height 50px
         width 50px
