@@ -1,0 +1,149 @@
+@objects
+    header-mobile       css      div.ss-header-container div.ss-header
+    header-desktop      css      .site-header-standalone
+    header-logo-mobile  css      div.ss-header-left div:nth-child(1) a img.cgu-logo
+    header-logo-desktop css      .cgu-logo
+    site-nav    xpath      (//div[@class='col-xs-12'])[1]
+    site-nav-button    xpath      //div[@class='cta-wrapper text-right']/a
+    CGU-Cyber-Hero-image    xpath      //section[@class='cyber hero']/div[@class='bg-image-xs']
+    CGU-Cyber-Overview    xpath      //section[@class='cyber cyber-overview']
+    CGU-Carousel    xpath       //section[@class='cyber cyber-overview has-bg features']/div[2]
+    CGU-Cyber-Tools    xpath      //section[@class='cyber cyber-overview cyber-tools']
+    CGU-Cyber-Incident-Response    xpath      //section[@class='cyber cyber-overview incident-response has-bg']/div[2]
+    CGU-Cyber-Claims-Header    xpath      //section[@id='claims-examples']/div/div/div/h2
+    CGU-Cyber-Employee-Error    xpath      (//div[@class='panel-1']/div/div[1])[1]
+    CGU-Cyber-PrivacyFinesandInvestigations    xpath       (//div[@class='panel-1']/div/div[1])[2]
+    CGU-Cyber-ComputerVirus-TransmissionandHacking    xpath      (//div[@class='panel-1']/div/div[2])[1]
+    CGU-Cyber-Multimedia-Liability    xpath           (//div[@class='panel-1']/div/div[2])[2]
+    CGU-Cyber-Cover-Extension    xpath      //section[@class='cyber cyber-overview cover-extension has-bg']
+    CGU-Cyber-Resources-Videos    xpath      //section[@class='cyber resources videos']
+    CGU-Cyber-Get-A-Quote    xpath      //section[@class='cyber cyber-overview get-quote has-bg']
+    CGU-Cyber-Get-A-Quote-Image    xpath      //div[@class='get-quote-image']
+    footer    css      footer
+
+= Cyber-Section =
+    @on mobile
+        header-mobile:
+            height 70px
+            width 362px
+        header-logo-mobile:
+            height 33px
+            width 41px
+        site-nav:
+        	height 70px
+        	width 362px
+        site-nav-button:
+        	inside site-nav 10px top
+        	inside site-nav 215px left
+        	inside site-nav 11px right
+        CGU-Cyber-Hero-image:
+        	height 354px
+        	width 362px
+        CGU-Cyber-Overview:
+        	height 826px
+        	width 362px
+        CGU-Carousel:
+        	height 398px
+        	width 362px
+        CGU-Cyber-Tools:
+        	height 583px
+        	width 342px
+        CGU-Cyber-Incident-Response:
+        	height 771px
+        	width 362px
+        CGU-Cyber-Claims-Header:
+        	height 38px
+        	width 322px
+        CGU-Cyber-Employee-Error:
+        	height 240px
+        	width 342px
+        CGU-Cyber-PrivacyFinesandInvestigations:
+        	height 240px
+        	width 342px
+        CGU-Cyber-ComputerVirus-TransmissionandHacking:
+        	height 240px
+        	width 342px
+        CGU-Cyber-Multimedia-Liability:
+        	height 240px
+        	width 342px
+        CGU-Cyber-Cover-Extension:
+        	height 1156px
+        	width 362px
+        CGU-Cyber-Resources-Videos:
+        	height 921px
+        	width 362px
+        CGU-Cyber-Get-A-Quote:
+        	height 864px
+        	width 362px
+        CGU-Cyber-Get-A-Quote-Image:
+        	inside CGU-Cyber-Get-A-Quote-Image 0px top
+        	inside CGU-Cyber-Get-A-Quote-Image 0px left
+        	inside CGU-Cyber-Get-A-Quote-Image 0px right
+        	height 217px
+        	width 200px
+
+    @on desktop
+        header-desktop:
+             height 100px
+             width 1011px
+        header-logo-desktop:
+             height 50px
+             width 155px
+        site-nav:
+             height 111px
+             width 1011px
+        site-nav-button:
+             height 50px
+             width 188px
+        CGU-Cyber-Hero-image:
+             height 400px
+             width 1011px
+        CGU-Cyber-Overview:
+             height 767px
+             width 1011px
+        CGU-Carousel:
+             height 650px
+             width 1011px
+        CGU-Cyber-Tools:
+             height 525px
+             width 940px
+        CGU-Cyber-Incident-Response:
+             height 470px
+             width 1011px
+        CGU-Cyber-Claims-Header:
+             height 55px
+             width 940px
+        CGU-Cyber-Employee-Error:
+             absent
+        CGU-Cyber-PrivacyFinesandInvestigations:
+             absent
+        CGU-Cyber-ComputerVirus-TransmissionandHacking:
+             absent
+        CGU-Cyber-Multimedia-Liability:
+             absent
+        CGU-Cyber-Cover-Extension:
+             height 1000px
+             width 1011px
+        CGU-Cyber-Resources-Videos:
+             height 469px
+             width 1011px
+        CGU-Cyber-Get-A-Quote:
+             height 650px
+             width 1011px
+        CGU-Cyber-Get-A-Quote-Image:
+             inside CGU-Cyber-Get-A-Quote-Image 0px top
+             inside CGU-Cyber-Get-A-Quote-Image 0px left
+             inside CGU-Cyber-Get-A-Quote-Image 0px right
+             height 380px
+             width 350px
+
+= Footer =
+    @on mobile
+        footer:
+            height 261px
+            width 362px
+
+    @on desktop
+        footer:
+            height 363px
+            width 1011px
