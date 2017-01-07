@@ -77,7 +77,7 @@ This would be the possible project direcotry structure.<br>
 2. `PageInteractions` directory contains all the javascript related logic related to page interactions.<br>
 3. `Reports` directory consists of all the reports executed on Cross Devices, Cross Browsers and specific to only a single device<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1. `Cross_Browser_Specs_reports` which has the reports for Cross Browsing based test executions.<br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2. `Cross_Device_Specs_Reports` which has the reports for Cross Browsing and Cross Device based test &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execution.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2. `Cross_Device_Specs_Reports` which has the reports for Cross Browsing and Cross Device based test &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execution.<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3. `Uni_Specs_Reports` which has the reports for tests executed specific to a single device.<br>
 4. `Specs` directory consists of the Galen specifications and has two classifications.<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1. `Cross_Specs` which essentially focuses on the characteristics on multiple devices and<br>
