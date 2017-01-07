@@ -75,7 +75,15 @@ To execute anf check a spec file use the following command.<br>
 This would be the possible project direcotry structure.<br>
 1. `Drivers` directory consists of the browser kits required to execute a browser. This directory includes `GeckoDriver`, `ChromeDriver` and `PhantomjsDriver`.<br>
 2. `PageInteractions` directory contains all the javascript related logic related to page interactions.<br>
-3. `Reports` directory consists of all the reports.<br>
-4. `Specs` directory consists of the Galen specifications.<br>
-5. `Test_Suites` directory consists of the test suites required to execute all the tests.<br>
+3. `Reports` directory consists of all the reports executed on Cross Devices, Cross Browsers and specific to only a single device<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1. `Cross_Browser_Specs_reports` which has the reports for Cross Browsing based test executions.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2. `Cross_Device_Specs_Reports` which has the reports for Cross Browsing and Cross Device based test &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execution.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3. `Uni_Specs_Reports` which has the reports for tests executed specific to a single device.<br>
+4. `Specs` directory consists of the Galen specifications and has two classifications.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1. `Cross_Specs` which essentially focuses on the characteristics on multiple devices and<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2. `Uni_Specs` focuses on the characteristics of a single device.<br>
+5. `Test_Suites` directory consists of the test suites required to execute all the tests and has two classifications.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1. `Cross_Browser` which focuses on tests written for multiple browser and multiple devices.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2. `Cross_Devices` which focuses on tests written for multiple devices only specific to the default browser &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mentioned in the galen configuration.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3. `Uni_Devices` which focuses on tests written specific to device specific to the default browser mentioned in the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;galen configuration only.<br>
 6. `galen.config` consists of all the configuration related parameters required to execute Galen.<br> 
