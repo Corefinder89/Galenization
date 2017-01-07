@@ -1,0 +1,23 @@
+@@ set domain www.cgu.com.au/insurance
+
+@@ parameterized
+    | browser   |
+    | firefox   |
+    | phantomjs | 
+
+@@ parameterized
+    | deviceName | tags    | size     |
+    | Mobile     | mobile  | 375x667  |
+    | Desktop    | desktop | 1024x768 |
+    
+@@ groups Personal_Section
+Checking the responsiveness for personal section on Iphone 6
+	selenium ${browser} http://${domain}/personal ${size}	
+		check ././Specs/Uni_Specs/CGU_Personal.gspec
+
+@@ disabled
+@@ groups mobile, Personal_Section
+Checking the responsiveness for menu in the personal section on Iphone 6
+	Personal page breadcrumb | http://${domain}/personal    375x667
+	    run ././PageInteractions/CGU_HamburgerMenu.js
+	    check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec

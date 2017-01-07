@@ -1,0 +1,16 @@
+@@ set domain www.cgu.com.au/insurance
+
+@@ parameterized
+    | browser   |
+    | firefox   |
+    | phantomjs | 
+
+@@ parameterized
+    | deviceName | tags    | size     |
+    | Mobile     | mobile  | 375x667  |
+    | Desktop    | desktop | 1024x768 |
+
+@@ groups Cyber_Crime
+Checking the responsiveness for cyber section on Iphone 6
+	selenium ${browser} http://${domain}/cyber ${size}
+		check ././Specs/Cross_Specs/CGU_CyberDefence.gspec --include "${tags}"
