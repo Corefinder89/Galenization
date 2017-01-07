@@ -11,7 +11,7 @@
     | Desktop    | desktop | 1024x768 |
     
 @@ groups Personal_Section
-Checking the responsiveness for personal section on Iphone 6
+Checking the responsiveness for personal section in ${browser} browser on ${deviceName}
 	selenium ${browser} http://${domain}/personal ${size}	
 		check ././Specs/Uni_Specs/CGU_Personal.gspec
 
