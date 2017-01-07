@@ -1,0 +1,24 @@
+@@ set domain www.cgu.com.au/insurance
+
+@@ parameterized
+    | browser   |
+    | firefox   |
+    | phantomjs | 
+
+@@ parameterized
+    | deviceName | tags    | size     |
+    | Mobile     | mobile  | 375x667  |
+    | Desktop    | desktop | 1024x768 |
+
+@@ groups Business_Section
+Checking the responsiveness for business section in ${browser} browser on ${deviceName}
+	selenium ${browser} http://${domain}/business ${size}
+		wait 10s until exist "css: div#nebula_div_btn"
+		check ././Specs/Cross_Specs/CGU_Business.gspec --include "${tags}"
+
+@@ disabled
+@@ groups Business_Section
+Checking the responsiveness for menu in the business section on Iphone 6
+	selenium ${browser} http://${domain}/business ${size}
+		run ././PageInteractions/CGU_HamburgerMenu.js
+		check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec --include "${tags}"

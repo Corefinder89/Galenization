@@ -1,0 +1,24 @@
+@@ set domain www.cgu.com.au/insurance
+
+@@ parameterized
+    | browser   |
+    | firefox   |
+    | phantomjs | 
+
+@@ parameterized
+    | deviceName | tags    | size     |
+    | Mobile     | mobile  | 375x667  |
+    | Desktop    | desktop | 1024x768 |
+    
+@@ groups Find_An_Adviser
+Checking the responsiveness for the Find An Insurance Advisor section
+	selenium ${browser} http://${domain}/Personal/Find-an-insurance-adviser ${size}
+		run ././PageInteractions/CGU_FAA.js '{pin: "3000"}'
+		check ././Specs/Cross_Specs/CGU_FAA.gspec
+
+@@ disabled
+@@ groups mobile, Find_An_Adviser
+Checking the responsiveness for menu in the Find and insurance adviser section on Iphone 6
+	FAA page breadcrumb | http://${domain}/Personal/Find-an-insurance-adviser    375x667
+		run ././PageInteractions/CGU_HamburgerMenu.js
+		check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec
