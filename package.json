@@ -1,0 +1,11 @@
+{
+  "name": "galen-example",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-serve": "^0.3.0",
+    "gulp-tap": "^0.1.3",
+    "serve-index": "^1.6.1"
+  }
+}
