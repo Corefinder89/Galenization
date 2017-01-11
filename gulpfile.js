@@ -17,11 +17,11 @@ var
 
     // The folder in which the generated reports should be saved to.
     //reportsDir = 'Reports/Cross_Browser_Specs_Reports/*',
-    reportsDir = 'Reports/Uni_Specs_Reports/*',
+    reportsDir = 'Reports/Cross_Browser_Specs_Reports/*',
 
     // A `glob` for where the Galen test suites can be found.
     //suitesGlob = 'Suites/Cross_Devices/**/*.test';
-    suitesGlob = 'Suites/Uni_Devices/CGU_Business.test';
+    suitesGlob = 'Suites/Cross_Devices/CGU_Suite.test';
 
 // Clean out the directory where the reports will be saved to. This is done so
 // as not to pollute the reports directory with old/potentially unwanted files.
