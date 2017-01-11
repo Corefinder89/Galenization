@@ -25,56 +25,56 @@
     @on mobile
         header-mobile:
             height 70px
-            width 362px
+            width 375px
         header-logo-mobile:
             height 33px
             width 41px
         site-nav:
         	height 70px
-        	width 362px
+        	width 375px
         site-nav-button:
         	inside site-nav 10px top
-        	inside site-nav 215px left
-        	inside site-nav 11px right
+        	inside site-nav 223px left
+        	inside site-nav 10px right
         CGU-Cyber-Hero-image:
         	height 354px
-        	width 362px
+        	width 375px
         CGU-Cyber-Overview:
         	height 826px
-        	width 362px
+        	width 375px
         CGU-Carousel:
-        	height 398px
-        	width 362px
+        	height 374px
+        	width 375px
         CGU-Cyber-Tools:
         	height 583px
-        	width 342px
+        	width 355px
         CGU-Cyber-Incident-Response:
-        	height 771px
-        	width 362px
+        	height 751px
+        	width 375px
         CGU-Cyber-Claims-Header:
         	height 38px
-        	width 322px
+        	width 335px
         CGU-Cyber-Employee-Error:
         	height 240px
-        	width 342px
+        	width 355px
         CGU-Cyber-PrivacyFinesandInvestigations:
         	height 240px
-        	width 342px
+        	width 355px
         CGU-Cyber-ComputerVirus-TransmissionandHacking:
         	height 240px
-        	width 342px
+        	width 355px
         CGU-Cyber-Multimedia-Liability:
         	height 240px
-        	width 342px
+        	width 355px
         CGU-Cyber-Cover-Extension:
-        	height 1156px
-        	width 362px
+        	height 1149px
+        	width 375px
         CGU-Cyber-Resources-Videos:
-        	height 921px
-        	width 362px
+        	height 907px
+        	width 375px
         CGU-Cyber-Get-A-Quote:
         	height 864px
-        	width 362px
+        	width 375px
         CGU-Cyber-Get-A-Quote-Image:
         	inside CGU-Cyber-Get-A-Quote-Image 0px top
         	inside CGU-Cyber-Get-A-Quote-Image 0px left
@@ -85,31 +85,31 @@
     @on desktop
         header-desktop:
              height 100px
-             width 1011px
+             width 1024px
         header-logo-desktop:
              height 50px
              width 155px
         site-nav:
              height 111px
-             width 1011px
+             width 1024px
         site-nav-button:
              height 50px
              width 188px
         CGU-Cyber-Hero-image:
              height 400px
-             width 1011px
+             width 1024px
         CGU-Cyber-Overview:
              height 767px
-             width 1011px
+             width 1024px
         CGU-Carousel:
              height 650px
-             width 1011px
+             width 1024px
         CGU-Cyber-Tools:
              height 525px
              width 940px
         CGU-Cyber-Incident-Response:
              height 470px
-             width 1011px
+             width 1024px
         CGU-Cyber-Claims-Header:
              height 55px
              width 940px
@@ -123,13 +123,13 @@
              absent
         CGU-Cyber-Cover-Extension:
              height 1000px
-             width 1011px
+             width 1024px
         CGU-Cyber-Resources-Videos:
              height 469px
-             width 1011px
+             width 1024px
         CGU-Cyber-Get-A-Quote:
              height 650px
-             width 1011px
+             width 1024px
         CGU-Cyber-Get-A-Quote-Image:
              inside CGU-Cyber-Get-A-Quote-Image 0px top
              inside CGU-Cyber-Get-A-Quote-Image 0px left
@@ -141,9 +141,9 @@
     @on mobile
         footer:
             height 261px
-            width 362px
+            width 375px
 
     @on desktop
         footer:
-            height 363px
-            width 1011px
+            height 351px
+            width 1024px

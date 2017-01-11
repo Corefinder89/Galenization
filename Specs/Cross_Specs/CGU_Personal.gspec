@@ -24,21 +24,21 @@
     @on mobile
         header-mobile:
             height 50px
-            width 362px
+            width 375px
         header-logo:
             height 33px
             width 41px
         hamburger:
             inside header-mobile 0px top
             inside header-mobile 0px left
-            inside header-mobile 327px right
+            inside header-mobile 341px right
             height 50px
-            width 35px
+            width 34px
         
     @on desktop
         header-desktop:
             height 40px
-            width 1011px
+            width 1024px
         header-logo:
             absent
         hamburger:
@@ -48,36 +48,36 @@
     @on mobile
         carousel-mobile:
             height 325px
-            width 362px
+            width 375px
 
     @on desktop
         carousel-desktop:
             height 565px
-            width 1011px
+            width 1024px
 
 = Business-landing-products =
     @on mobile
         business-landing-header:
                 height 60px
-                width 342px
+                width 355px
         accordian-car-insurance:
                 height 50px
-                width 362px
+                width 375px
         accordian-home-insurance:
                 height 50px
-                width 362px
+                width 375px
         accordian-boat-landlord-insurance:
                 height 100px
-                width 362px
+                width 375px
         accordian-travel-insurance:
                 height 50px
-                width 362px
+                width 375px
         accordian-residential-strata-caravan-insurance:
                 height 100px
-                width 362px
+                width 375px
         accordian-life-insurance:
                 height 50px
-                width 362px
+                width 375px
 
     @on desktop
         business-landing-header:
@@ -106,7 +106,7 @@
     @on mobile
         find-an-insurance-adviser:
             height 210px
-            width 342px
+            width 355px
 
     @on desktop
         find-an-insurance-adviser:
@@ -127,7 +127,7 @@
     @on mobile
         learn-about-insurance:
             height 282px
-            width 327px
+            width 340px
 
     @on desktop
         learn-about-insurance:
@@ -138,7 +138,7 @@
     @on mobile
         which-insurance-is-right-for-you:
             height 555px
-            width 342px
+            width 355px
 
     @on desktop
         which-insurance-is-right-for-you:
@@ -159,7 +159,7 @@
     @on mobile
         dark-banner:
             height 320px
-            width 362px
+            width 375px
 
     @on desktop
         dark-banner:
@@ -170,9 +170,9 @@
     @on mobile
         footer:
             height 261px
-            width 362px
+            width 375px
 
     @on desktop
         footer:
-            height 363px
-            width 1011px
+            height 351px
+            width 1024px

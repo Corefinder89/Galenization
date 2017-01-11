@@ -18,54 +18,54 @@
     @on mobile
         header-mobile:
             height 50px
-            width 362px
+            width 375px
         header-logo-mobile:
             height 33px
             width 41px
         hamburger:
             inside header-mobile 0px top
             inside header-mobile 0px left
-            inside header-mobile 327px right
+            inside header-mobile 341px right
             height 50px
-            width 35px
+            width 34px
         Insurance_sections:
             inside FAA_Form 57px top
             inside FAA_Form 0px left
             inside FAA_Form 0px right
             height 50px
-            width 342px
+            width 355px
         FAA_Form:
         	height 717px
-        	width 342px
+        	width 355px
         Personal_products_label:
             inside FAA_Form 164px top
             inside FAA_Form 0px left
             inside FAA_Form 0px right
             height 50px
-            width 342px
+            width 355px
         Location:
             height 107px
-            width 362px
+            width 375px
         Adviser_Location:
             inside Location 57px top
             inside Location 10px left
             inside Location 65px right
         Button:
             inside Location 57px top
-            inside Location 302px left
+            inside Location 315px left
             inside Location 10px right
 
     @on desktop
         header-desktop:
             height 40px
-            width 1011px
+            width 1024px
         header-logo-desktop:
             height 80px
             width 255px
         hamburger:
             absent
         FAA_Form:
-            height 124px
+            height 125px
             width 940px
         Insurance_sections:
             inside FAA_Form 55px top
@@ -106,9 +106,9 @@
     @on mobile
         footer:
             height 261px
-            width 362px
+            width 375px
 
     @on desktop
         footer:
-            height 363px
-            width 1011px
+            height 351px
+            width 1024px

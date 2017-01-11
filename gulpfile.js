@@ -109,7 +109,7 @@ gulp.task('serve', ['test'], serve({
         })(req, res, next);
     },
     'port' : port,
-    'root' : 'Uni_Specs_Reports/reports.html'
+    'root' : reportsDir
 }));
 
 // And lastly, we define a `default` task to kick off if `gulp` is called with
