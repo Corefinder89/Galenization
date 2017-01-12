@@ -86,4 +86,17 @@ This would be the possible project direcotry structure.<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1. `Cross_Browser` which focuses on tests written for multiple browser and multiple devices.<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2. `Cross_Devices` which focuses on tests written for multiple devices only specific to the default browser &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mentioned in the galen configuration.<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3. `Uni_Devices` which focuses on tests written specific to device specific to the default browser mentioned in the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;galen configuration only.<br>
-6. `galen.config` consists of all the configuration related parameters required to execute Galen.<br> 
+6. `galen.config` consists of all the configuration related parameters required to execute Galen.<br>
+
+#Note
+In case of Drivers instead of using the `driver` executables for chrome, phantomjs and firefox you can also install them in your local machine as well.<br>
+Since I am using a mac I will be using the `Homebrew` to install the drivers.<br>
+1. To execute your tests on firefox you will be needing the geckodriver. `Gecko driver` can be installed by using `brew install geckdriver`. This will install the latest stable version of gecko driver in your system.<br>
+2. To execute your tests on chrome you will be needing the chromedriver. `Chrome driver` can be installed by using `brew install chromedriver`. This will install the latest stable version of chrome driver in your system.<br>
+3. To execute your tests headlessly you will be needing the phantomjs driver which can be installed in your system using `brew install phantomjs`.<br><br>
+Once this is done you just need to give the path of the driver in your galen.config file. This will look something like this.<br>
+```
+    $.webdriver.gecko.driver=/usr/local/bin/geckodriver
+    $.webdriver.chrome.driver=/usr/local/bin/chromedriver
+    $.phantomjs.binary.path=/usr/local/bin/phantomjs
+```  
