@@ -15,45 +15,45 @@
     @on mobile
     header:
         height 50px
-        width 362px
+        width 375px
     header-logo:
         height 33px
         width 41px
     hamburger:
         inside header 0px top
         inside header 0px left
-        inside header 327px right
+        inside header 341px right
         height 50px
-        width 35px
+        width 34px
     Insurance_sections:
         inside FAA_Form 57px top
         inside FAA_Form 0px left
         inside FAA_Form 0px right
         height 50px
-        width 342px
+        width 355px
     FAA_Form:
     	height 717px
-    	width 342px
+    	width 355px
     Personal_products_label:
         inside FAA_Form 164px top
         inside FAA_Form 0px left
         inside FAA_Form 0px right
         height 50px
-        width 342px
+        width 355px
     Location:
         height 107px
-        width 362px
+        width 375px
     Adviser_Location:
         inside Location 57px top
         inside Location 10px left
         inside Location 65px right
     Button:
         inside Location 57px top
-        inside Location 302px left
+        inside Location 315px left
         inside Location 10px right
 
 = Footer =
     @on mobile
     footer:
         height 261px
-        width 362px
+        width 375px

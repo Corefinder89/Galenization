@@ -5,7 +5,7 @@
 = Hamburger Menu =
     @on Iphone6
     hamburger-menu:
-        height 596px  
+        height 588px  
         width 250px
 
 = Hmaburger Menu Close =
