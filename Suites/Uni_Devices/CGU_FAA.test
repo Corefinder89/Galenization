@@ -1,13 +1,16 @@
-@@ set domain www.cgu.com.au/insurance
+@@ set 
+	domain www.cgu.com.au/insurance
+	resolution 375x667
+	device Iphone6
 
-@@ groups mobile, Find_An_Adviser
-Checking the responsiveness for the Find An Insurance Advisor section
-	Find An Adviser | http://${domain}/Personal/Find-an-insurance-adviser    375x667
+@@ groups Find_An_Adviser
+Checking the responsiveness for the Find An Insurance Advisor section on ${device}
+	Find An Adviser | http://${domain}/Personal/Find-an-insurance-adviser ${resolution}
 		run ././PageInteractions/CGU_FAA.js '{pin: "3000"}'
 		check ././Specs/Uni_Specs/CGU_FAA.gspec
 
-@@ groups mobile, Find_An_Adviser
-Checking the responsiveness for menu in the Find and insurance adviser section on Iphone 6
-	FAA page breadcrumb | http://${domain}/Personal/Find-an-insurance-adviser    375x667
+@@ groups Find_An_Adviser
+Checking the responsiveness for menu in the Find and insurance adviser section on ${device}
+	FAA page breadcrumb | http://${domain}/Personal/Find-an-insurance-adviser ${resolution}
 		run ././PageInteractions/CGU_HamburgerMenu.js
 		check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec

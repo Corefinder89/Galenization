@@ -1,6 +1,9 @@
-@@ set domain www.cgu.com.au/insurance
+@@ set 
+	domain www.cgu.com.au/insurance
+	resolution 375x667
+	device Iphone6
 
-@@ groups mobile, Cyber_Crime
-Checking the responsiveness for cyber section on Iphone 6
-	Cyber Crime | http://${domain}/cyber    375x667
+@@ groups Cyber_Crime
+Checking the responsiveness for cyber section on ${device}
+	Cyber_Crime | http://${domain}/cyber ${resolution}
 		check ././Specs/Uni_Specs/CGU_CyberDefence.gspec
