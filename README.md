@@ -93,7 +93,7 @@ In case of Drivers instead of using the `driver` executables for chrome, phantom
 Since I am using a mac I will be using the `Homebrew` to install the drivers.<br>
 1. To execute your tests on firefox you will be needing the geckodriver. `Gecko driver` can be installed by using `brew install geckdriver`. This will install the latest stable version of gecko driver in your system.<br>
 2. To execute your tests on chrome you will be needing the chromedriver. `Chrome driver` can be installed by using `brew install chromedriver`. This will install the latest stable version of chrome driver in your system.<br>
-3. To execute your tests headlessly you will be needing the phantomjs driver which can be installed in your system using `brew install phantomjs`.<br><br>
+3. To execute your tests headlessly you will be needing the `phantomjs driver` which can be installed in your system using `brew install phantomjs`.<br><br>
 Once this is done you just need to give the path of the driver in your galen.config file. This will look something like this.<br>
 ```
     $.webdriver.gecko.driver=/usr/local/bin/geckodriver
