@@ -3,7 +3,7 @@
 @@ parameterized
     | browser   |
     | firefox   |
-    | phantomjs | 
+    | chrome    | 
 
 @@ parameterized
     | deviceName | tags    | size     |
@@ -14,7 +14,7 @@
 Checking the responsiveness for the Find An Insurance Advisor section in ${browser} browser on ${deviceName}
 	selenium ${browser} http://${domain}/Personal/Find-an-insurance-adviser ${size}
 		run ././PageInteractions/CGU_FAA.js '{pin: "3000"}'
-		check ././Specs/Cross_Specs/CGU_FAA.gspec
+		check ././Specs/Cross_Specs/CGU_FAA.gspec --include "${tags}"
 
 @@ disabled
 @@ groups mobile, Find_An_Adviser

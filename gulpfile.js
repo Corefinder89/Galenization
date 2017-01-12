@@ -15,18 +15,19 @@ var
     // The port on which the local server should serve up the reports on.
     port = 3333,
 
+    // The folder contetnts that needs to be deleted each time the tests start
+    del_files_reportsDir = 'Reports/Cross_Device_Specs_Reports/*',
+
     // The folder in which the generated reports should be saved to.
-    //reportsDir = 'Reports/Cross_Browser_Specs_Reports/*',
-    reportsDir = 'Reports/Cross_Browser_Specs_Reports/*',
+    reportsDir = 'Reports/Cross_Device_Specs_Reports/',
 
     // A `glob` for where the Galen test suites can be found.
-    //suitesGlob = 'Suites/Cross_Devices/**/*.test';
     suitesGlob = 'Suites/Cross_Devices/CGU_Suite.test';
 
 // Clean out the directory where the reports will be saved to. This is done so
 // as not to pollute the reports directory with old/potentially unwanted files.
 gulp.task('clean', function (done) {
-    del([reportsDir], function (err) {
+    del([del_files_reportsDir], function (err) {
         if (err) {
             throw err;
         }

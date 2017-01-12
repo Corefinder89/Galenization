@@ -3,7 +3,7 @@
 @@ parameterized
     | browser   |
     | firefox   |
-    | phantomjs | 
+    | chrome    | 
 
 @@ parameterized
     | deviceName | tags    | size     |
@@ -13,11 +13,11 @@
 @@ groups Personal_Section
 Checking the responsiveness for personal section in ${browser} browser on ${deviceName}
 	selenium ${browser} http://${domain}/personal ${size}	
-		check ././Specs/Uni_Specs/CGU_Personal.gspec
+		check ././Specs/Cross_Specs/CGU_Personal.gspec --include "${tags}"
 
 @@ disabled
 @@ groups mobile, Personal_Section
 Checking the responsiveness for menu in the personal section on Iphone 6
 	Personal page breadcrumb | http://${domain}/personal    375x667
 	    run ././PageInteractions/CGU_HamburgerMenu.js
-	    check ././Specs/Uni_Specs/CGU_HamburgerMenu.gspec
+	    check ././Specs/Cross_Specs/CGU_HamburgerMenu.gspec

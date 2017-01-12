@@ -25,56 +25,56 @@
     @on mobile
         header-mobile:
             height 70px
-            width 375px
+            width 375 to 400px
         header-logo-mobile:
             height 33px
             width 41px
         site-nav:
         	height 70px
-        	width 375px
+        	width 375 to 400px
         site-nav-button:
         	inside site-nav 10px top
-        	inside site-nav 223px left
+        	inside site-nav 223 to 238px left
         	inside site-nav 10px right
         CGU-Cyber-Hero-image:
-        	height 354px
-        	width 375px
+        	height 353 to 354px
+        	width 375 to 400px
         CGU-Cyber-Overview:
-        	height 826px
-        	width 375px
+        	height 782 to 826px
+        	width 375 to 400px
         CGU-Carousel:
         	height 374px
-        	width 375px
+        	width 375 to 400px
         CGU-Cyber-Tools:
-        	height 583px
-        	width 355px
+        	height 563 to 583px
+        	width 355 to 380px
         CGU-Cyber-Incident-Response:
-        	height 751px
-        	width 375px
+        	height 712 to 751px
+        	width 375 to 400px
         CGU-Cyber-Claims-Header:
         	height 38px
-        	width 335px
+        	width 335 to 360px
         CGU-Cyber-Employee-Error:
         	height 240px
-        	width 355px
+        	width 355 to 380px
         CGU-Cyber-PrivacyFinesandInvestigations:
         	height 240px
-        	width 355px
+        	width 355 to 380px
         CGU-Cyber-ComputerVirus-TransmissionandHacking:
         	height 240px
-        	width 355px
+        	width 355 to 380px
         CGU-Cyber-Multimedia-Liability:
         	height 240px
-        	width 355px
+        	width 355 to 380px
         CGU-Cyber-Cover-Extension:
-        	height 1149px
-        	width 375px
+        	height 1108 to 1149px
+        	width 375 to 400px
         CGU-Cyber-Resources-Videos:
-        	height 907px
-        	width 375px
+        	height 907 to 921px
+        	width 375 to 400px
         CGU-Cyber-Get-A-Quote:
-        	height 864px
-        	width 375px
+        	height 792 to 864px
+        	width 375 to 400px
         CGU-Cyber-Get-A-Quote-Image:
         	inside CGU-Cyber-Get-A-Quote-Image 0px top
         	inside CGU-Cyber-Get-A-Quote-Image 0px left
@@ -140,10 +140,10 @@
 = Footer =
     @on mobile
         footer:
-            height 261px
-            width 375px
+            height 250 to 261px
+            width 375 to 400px
 
     @on desktop
         footer:
-            height 351px
+            height 351 to 352px
             width 1024px
