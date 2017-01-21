@@ -88,7 +88,7 @@ This would be the possible project direcotry structure.<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3. `Uni_Devices` which focuses on tests written specific to device specific to the default browser mentioned in the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;galen configuration only.<br>
 6. `galen.config` consists of all the configuration related parameters required to execute Galen.<br>
 
-#Note
+# Note
 In case of Drivers instead of using the `driver` executables for chrome, phantomjs and firefox you can also install them in your local machine as well.<br>
 Since I am using a mac I will be using the `Homebrew` to install the drivers.<br>
 1. To execute your tests on firefox you will be needing the geckodriver. `Gecko driver` can be installed by using `brew install geckdriver`. This will install the latest stable version of gecko driver in your system.<br>
